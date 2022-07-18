@@ -1,0 +1,27 @@
+Package: ShinyQuiz
+Title: Framework for Collecting Data from Users in Shiny Applications
+Version: 0.9.0
+Date: 2022-07-18
+Authors@R: 
+    person("Jason", "Bryer", , "jason@bryer.org", role = c("aut", "cre"))
+Description: ShinyQuiz provides a framework for collecting data from users
+    through a series of questions. Common uses include short multiple
+    choice quizzes, survey questions, or essays. The package supports
+    responses as radio buttons (with one selection allowed), check boxes
+    (allowoing for multiple answers per question), numeric responses, and
+    text boxes.
+License: GPL-3
+URL: https://github.com/jbryer/ShinyQuiz
+BugReports: https://github.com/jbryer/ShinyQuiz/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    cowplot,
+    ggforce,
+    ggplot2,
+    shiny
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

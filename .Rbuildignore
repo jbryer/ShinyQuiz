@@ -1,0 +1,4 @@
+^ShinyQuiz\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+build.R
