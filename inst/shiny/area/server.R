@@ -18,7 +18,7 @@ shinyServer(function(input, output) {
 				' percent. Click the explore tab to see how area changes for the various shapes.'
 			)
 		} else {
-			msg <- 'Please complete the quiz.'
+			msg <- 'Please complete the quiz to get your results.'
 		}
 		return(msg)
 	})
